@@ -1,0 +1,9 @@
+version: "3"
+
+services: 
+  runner:
+    depends_on: testrunner
+    image: ""
+    volumes: 
+      - grd_data:/src
+  testrunner:
